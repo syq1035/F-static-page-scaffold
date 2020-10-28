@@ -7,6 +7,7 @@ html {
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
+  background-color: #e9ebee;
 }
 
 * {
@@ -17,4 +18,65 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+h1,
+h3 {
+  margin: 0;
+}
+
+.header {
+  height: 80px;
+  background-color: #3b5998;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.register-button {
+  height: 28px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 10%;
+  color: white;
+  background-color: #42b72a;
+  margin-left: 10px;
+}
+
+.main {
+  width: 1080px;
+  margin: 20px auto;
+}
+
+.content {
+  display: flex;
+  margin-top: 50px;
+}
+
+.box {
+  width: 530px;
+  padding: 30px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.content-left {
+  margin-right: 20px;
+}
+
+.name {
+  margin-top: 30px;
+}
+
+.begin {
+  margin-top: 60px;
 }
